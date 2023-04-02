@@ -12,7 +12,7 @@ const Homepage = () => {
    const [page,setPage] = useState(1)
     const fetchAndUpdateData = (page) => {
 
-        fetch(`http://localhost:8080/homedata?_limit=11&_page=${page}`)
+        fetch(`https://json-server-p4w8.onrender.com/homedata?_limit=11&_page=${page}`)
             .then((res) => {
                 return res.json()
             }).then((data) => {

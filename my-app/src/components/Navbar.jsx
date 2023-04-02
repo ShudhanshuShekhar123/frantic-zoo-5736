@@ -22,7 +22,7 @@ const Navbar = () => {
                     <FaSearch />
                 </div>
                 <div id="login">
-                    <p>Login</p>
+                    <Link style={{textDecoration:"none",color:"black"}} to="/login"><p>Login</p></Link>
                 </div>
             </div>
             {/* //second div fro categories */}

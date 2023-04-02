@@ -13,7 +13,7 @@ const Car = () => {
 
     const fetchAndUpdateData = () => {
 
-        fetch(`http://localhost:8080/carsdata`)
+        fetch(`https://json-server-p4w8.onrender.com/carsdata`)
             .then((res) => {
                 // console.log(res)
                 return res.json()
@@ -39,7 +39,7 @@ const Car = () => {
     }
 
     const filterdata = (val) => {
-        fetch(`http://localhost:8080/carsdata`)
+        fetch(`https://json-server-p4w8.onrender.com/carsdata`)
             .then((res) => {
                 // console.log(res)
                 return res.json()

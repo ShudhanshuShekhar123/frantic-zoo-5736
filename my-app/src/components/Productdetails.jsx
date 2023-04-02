@@ -13,7 +13,7 @@ function Productdetails() {
     // { category === "car" ? category1 = "carsdata": null }
     const fetchAndGetData = () => {
         if (category === "car") {
-            fetch(`http://localhost:8080/carsdata/${id}`)
+            fetch(`https://json-server-p4w8.onrender.com/carsdata/${id}`)
                 .then((res) => {
                     console.log(res.url)
                     return res.json()
@@ -24,7 +24,7 @@ function Productdetails() {
                 })
 
         } else if (category === "motorcycle") {
-            fetch(`http://localhost:8080/homedata/${id}`)
+            fetch(`https://json-server-p4w8.onrender.com/homedata/${id}`)
                 .then((res) => {
                     console.log(res.url)
                     return res.json()
@@ -36,7 +36,7 @@ function Productdetails() {
 
         }
         else if (category === "scooter") {
-            fetch(`http://localhost:8080/homedata/${id}`)
+            fetch(`https://json-server-p4w8.onrender.com/homedata/${id}`)
                 .then((res) => {
                     console.log(res.url)
                     return res.json()
@@ -48,7 +48,7 @@ function Productdetails() {
 
         }
         else if (category === "mobile") {
-            fetch(`http://localhost:8080/homedata/${id}`)
+            fetch(`https://json-server-p4w8.onrender.com/homedata/${id}`)
                 .then((res) => {
                     console.log(res.url)
                     return res.json()
@@ -59,7 +59,7 @@ function Productdetails() {
                 })
 
         } else if (category === "house") {
-            fetch(`http://localhost:8080/homedata/${id}`)
+            fetch(`https://json-server-p4w8.onrender.com/homedata/${id}`)
                 .then((res) => {
                     console.log(res.url)
                     return res.json()
