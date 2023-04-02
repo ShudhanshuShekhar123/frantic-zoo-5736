@@ -1,7 +1,7 @@
 import "../styles/navbar.css"
 import { FaSearch } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
-import { Link } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 // CiSearch
 // FaSearch
 const Navbar = () => {
@@ -27,11 +27,11 @@ const Navbar = () => {
             </div>
             {/* //second div fro categories */}
             <div className="categoriesdiv">
-                <Link style={{ textDecoration: "none" }} to="/car"><p>Cars</p></Link>
-                <Link style={{ textDecoration: "none" }} to="/motorcycle"><p>Motorcycles</p></Link>
-                <Link style={{ textDecoration: "none" }} to="/mobilephone"><p>Mobile Phones</p></Link>
-                <Link style={{ textDecoration: "none" }} to="/"><p>Scooters</p></Link>
-                <Link style={{ textDecoration: "none" }} to="/"><p>Commerical & Other Vechiles</p></Link>
+                <NavLink style={{ textDecoration: "none" }} to="/car"><p>Cars</p></NavLink>
+                <NavLink style={{ textDecoration: "none" }} to="/motorcycle"><p>Motorcycles</p></NavLink>
+                <NavLink style={{ textDecoration: "none" }} to="/mobilephone"><p>Mobile Phones</p></NavLink>
+                <NavLink style={{ textDecoration: "none" }} to="/"><p>Scooters</p></NavLink>
+                <NavLink style={{ textDecoration: "none" }} to="/"><p>Commerical & Other Vechiles</p></NavLink>
 
             </div>
         </div>
