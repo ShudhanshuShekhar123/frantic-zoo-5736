@@ -32,7 +32,7 @@ const Car = () => {
         fetchAndUpdateData()
     }, [])
 
-
+//hello updated
 
     if (loading) {
         return <h1>Loading...Please be Patient</h1>
