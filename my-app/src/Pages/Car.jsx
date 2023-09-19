@@ -2,8 +2,6 @@ import Productpage from "../components/Productpage"
 import { useState, useEffect } from "react"
 import Footer from "../components/Footer"
 
-// import "../styles/footer.css"
-// import "../styles/homepage.css"
 import "../styles/carsproductpage.css"
 const Car = () => {
 
